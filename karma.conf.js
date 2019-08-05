@@ -16,7 +16,7 @@ module.exports = (config) => {
           type: 'module'
         },
         {
-          pattern: require.resolve('web-animations-js/web-animations.min.js'),
+          pattern: require.resolve('web-animations-js/web-animations-next.min.js'),
           type: 'js'
         }
       ],
