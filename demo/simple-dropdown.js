@@ -2,7 +2,7 @@ import { html, css, LitElement } from 'lit-element';
 import '../anypoint-dropdown.js';
 
 export class SimpleDropdown extends LitElement {
-  static get styles() {
+  get styles() {
     return css`
       :host {
         display: inline-block;
@@ -70,7 +70,7 @@ export class SimpleDropdown extends LitElement {
       closeAnimationConfig,
       noAnimations
     } = this;
-    return html`
+    return html`<style>${this.styles}</style>
       <div @click="${this.open}">
         <slot name="dropdown-trigger"></slot>
       </div>
