@@ -3,7 +3,7 @@ import { ControlStateMixin } from '@anypoint-web-components/anypoint-control-mix
 import { ArcOverlayMixin } from '@advanced-rest-client/arc-overlay-mixin/arc-overlay-mixin.js';
 
 export class AnypointDropdown extends ArcOverlayMixin(ControlStateMixin(LitElement)) {
-  static get styles() {
+  get styles() {
     return css`
     :host {
       position: fixed;
@@ -394,7 +394,7 @@ export class AnypointDropdown extends ArcOverlayMixin(ControlStateMixin(LitEleme
   }
 
   render() {
-    return html`
+    return html`<style>${this.styles}</style>
     <div class="contentWrapper">
       <slot name="dropdown-content"></slot>
     </div>
