@@ -1,4 +1,4 @@
-import { AnypointDropdown } from './src/AnypointDropdown.js';
+import { AnypointDropdown } from './src/AnypointDropdown';
 
 declare global {
   interface HTMLElementTagNameMap {

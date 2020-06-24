@@ -150,6 +150,7 @@ export class AnypointDropdown extends ArcOverlayMixin(ControlStateMixin(LitEleme
 
   /**
    * The element that is contained by the dropdown, if any.
+   * @return {HTMLElement|null}
    */
   get containedElement() {
     const slot = this.shadowRoot.querySelector('slot');
@@ -159,7 +160,7 @@ export class AnypointDropdown extends ArcOverlayMixin(ControlStateMixin(LitEleme
     const nodes = slot.assignedNodes({ flatten: true });
     for (let i = 0, l = nodes.length; i < l; i++) {
       if (nodes[i].nodeType === Node.ELEMENT_NODE) {
-        return nodes[i];
+        return /** @type HTMLElement */ (nodes[i]);
       }
     }
     return null;
@@ -175,6 +176,8 @@ export class AnypointDropdown extends ArcOverlayMixin(ControlStateMixin(LitEleme
     this.verticalAlign = 'top';
     this.noAnimations = false;
     this.allowOutsideScroll = false;
+    this.openAnimationConfig = null;
+    this.closeAnimationConfig = null;
   }
 
   connectedCallback() {

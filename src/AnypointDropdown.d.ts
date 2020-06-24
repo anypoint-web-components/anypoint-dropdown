@@ -1,7 +1,6 @@
 import { TemplateResult, LitElement, CSSResult } from 'lit-element';
 import { ControlStateMixin } from '@anypoint-web-components/anypoint-control-mixins';
-import { ArcOverlayMixin } from '@advanced-rest-client/arc-overlay-mixin/arc-overlay-mixin.js';
-
+import { ArcOverlayMixin } from '@advanced-rest-client/arc-overlay-mixin';
 
 export declare class AnypointDropdown {
   readonly styles: CSSResult;
