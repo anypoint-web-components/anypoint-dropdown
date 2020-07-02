@@ -60,7 +60,11 @@ export class AnypointDropdown extends ArcOverlayMixin(ControlStateMixin(LitEleme
        * This property is a shortcut to set `scrollAction` to lock or refit.
        * Prefer directly setting the `scrollAction` property.
        */
-      allowOutsideScroll: { type: Boolean }
+      allowOutsideScroll: { type: Boolean },
+      /**
+       * Set to true to fit dropdown content width to dropdown selector
+       */
+      fitPositionTarget: { type: Boolean }
     };
   }
 
