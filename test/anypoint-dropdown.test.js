@@ -5,7 +5,7 @@ import '../anypoint-dropdown.js';
 
 describe('<anypoint-dropdown>', () => {
   async function basicFixture() {
-    return await fixture(`<anypoint-dropdown>
+    return fixture(`<anypoint-dropdown>
         <div slot="dropdown-content">
           <div>item 1</div>
           <div>item 2</div>
@@ -15,11 +15,11 @@ describe('<anypoint-dropdown>', () => {
   }
 
   async function noContentFixture() {
-    return await fixture(`<anypoint-dropdown></anypoint-dropdown>`);
+    return fixture(`<anypoint-dropdown></anypoint-dropdown>`);
   }
 
   async function disabledFixture() {
-    return await fixture(`<anypoint-dropdown disabled>
+    return fixture(`<anypoint-dropdown disabled>
       <div slot="dropdown-content">
         <div>item 1</div>
       </div>
@@ -27,7 +27,7 @@ describe('<anypoint-dropdown>', () => {
   }
 
   async function noAnimationsFixture() {
-    return await fixture(`<anypoint-dropdown noanimations>
+    return fixture(`<anypoint-dropdown noanimations>
         <div slot="dropdown-content">
           <div>item 1</div>
           <div>item 2</div>
@@ -37,11 +37,19 @@ describe('<anypoint-dropdown>', () => {
   }
 
   async function focusableFixture() {
-    return await fixture(`<anypoint-dropdown>
+    return fixture(`<anypoint-dropdown>
         <div slot="dropdown-content" tabindex="0">
           <div tabindex="0">item 1</div>
           <div tabindex="0">item 2</div>
           <div tabindex="0">item 3</div>
+        </div>
+      </anypoint-dropdown>`);
+  }
+
+  async function fitFixture() {
+    return fixture(`<anypoint-dropdown fitPositionTarget>
+        <div slot="dropdown-content">
+          <div>item 1</div>
         </div>
       </anypoint-dropdown>`);
   }
@@ -119,6 +127,11 @@ describe('<anypoint-dropdown>', () => {
       element.scrollAction = 'other';
       element.allowOutsideScroll = true;
       assert.equal(element.scrollAction, 'other');
+    });
+
+    it('sets fitPositionTarget', async () => {
+      const element = await fitFixture();
+      assert.isTrue(element.fitPositionTarget);
     });
   });
 
@@ -341,9 +354,10 @@ describe('<anypoint-dropdown>', () => {
     async function untilFinish(results) {
       return new Promise((resolve) => {
         let left = results.length;
+        // eslint-disable-next-line array-callback-return
         results.map((animation) => {
           animation.addEventListener('finish', () => {
-            left--;
+            left -= 1;
             if (!left) {
               resolve();
             }
