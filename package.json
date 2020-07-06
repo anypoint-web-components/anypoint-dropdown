@@ -1,7 +1,7 @@
 {
   "name": "@anypoint-web-components/anypoint-dropdown",
   "description": "Accessible dropdown menu for Anypoint platform",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "license": "Apache-2.0",
   "main": "index.js",
   "module": "index.js",
@@ -28,7 +28,7 @@
     "email": "arc@mulesoft.com"
   },
   "dependencies": {
-    "@advanced-rest-client/arc-overlay-mixin": "^1.1.4",
+    "@advanced-rest-client/arc-overlay-mixin": "^1.1.5",
     "@anypoint-web-components/anypoint-control-mixins": "^1.1.1",
     "lit-element": "^2.3.1",
     "lit-html": "^1.2.1"
