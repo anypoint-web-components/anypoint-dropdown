@@ -59,3 +59,33 @@
 * upgrading to open-wc standards [f2926a2](https://github.com/anypoint-web-components/anypoint-dropdown/commit/f2926a22b1a6691a3a1047981b0ce42695a6d7aa) by Pawel
 
 
+<a name="1.1.2"></a>
+## [1.1.2](https://github.com/anypoint-web-components/anypoint-dropdown/compare/1.1.0...1.1.2) (2020-07-06)
+
+### Build
+
+* bump version [a674aea](https://github.com/anypoint-web-components/anypoint-dropdown/commit/a674aeafd5b3d4e11328b713ceb17878dee9ca27) by Carolina Wright
+
+
+### Update
+
+* ignore .idea folder [4ebe6ba](https://github.com/anypoint-web-components/anypoint-dropdown/commit/4ebe6ba118d860ddd003b35e8d2919e8f9afbbf3) by Carolina Wright
+* [ci skip] automated merge master->stage. syncing main branches [2646d27](https://github.com/anypoint-web-components/anypoint-dropdown/commit/2646d2707dbc2c7c087f13b5dd7a9ba7956e0b9a) by Ci agent
+* [ci skip] automated merge master->stage. syncing main branches [c21cb49](https://github.com/anypoint-web-components/anypoint-dropdown/commit/c21cb49614c5887a2d82ee8cf169870f6f1278db) by Ci agent
+
+
+### Features
+
+* add new property fitPositionTarget to fit content width to container [b8ae20c](https://github.com/anypoint-web-components/anypoint-dropdown/commit/b8ae20c851477f96f1a3dfc1913349c4293350b6) by Carolina Wright
+
+
+### Bug Fixes
+
+* fixing types declaration [e11ab34](https://github.com/anypoint-web-components/anypoint-dropdown/commit/e11ab34f7b3e4fa13db9a7a56de5629f09f21f1c) by Pawel
+
+
+### Testing
+
+* test new property is set [003ac29](https://github.com/anypoint-web-components/anypoint-dropdown/commit/003ac29e43ea4ef054a7594e01532238def1e1a6) by Carolina Wright
+
+
