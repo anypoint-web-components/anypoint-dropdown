@@ -89,3 +89,30 @@
 * test new property is set [003ac29](https://github.com/anypoint-web-components/anypoint-dropdown/commit/003ac29e43ea4ef054a7594e01532238def1e1a6) by Carolina Wright
 
 
+<a name="1.1.3"></a>
+## [1.1.3](https://github.com/anypoint-web-components/anypoint-dropdown/compare/1.1.1...1.1.3) (2020-11-25)
+
+### Build
+
+* bump version [a674aea](https://github.com/anypoint-web-components/anypoint-dropdown/commit/a674aeafd5b3d4e11328b713ceb17878dee9ca27) by Carolina Wright
+
+
+### Update
+
+* updating types [6a601bb](https://github.com/anypoint-web-components/anypoint-dropdown/commit/6a601bb1440e2d9270147949672c83e9b6588817) by Pawel Psztyc
+* [ci skip] automated merge master->stage. syncing main branches [64bd789](https://github.com/anypoint-web-components/anypoint-dropdown/commit/64bd7894d39b3f37e4595ce260cc1e44be978bdc) by Ci agent
+* ignore .idea folder [4ebe6ba](https://github.com/anypoint-web-components/anypoint-dropdown/commit/4ebe6ba118d860ddd003b35e8d2919e8f9afbbf3) by Carolina Wright
+* [ci skip] automated merge master->stage. syncing main branches [2646d27](https://github.com/anypoint-web-components/anypoint-dropdown/commit/2646d2707dbc2c7c087f13b5dd7a9ba7956e0b9a) by Ci agent
+
+
+### Features
+
+* add new property fitPositionTarget to fit content width to container [b8ae20c](https://github.com/anypoint-web-components/anypoint-dropdown/commit/b8ae20c851477f96f1a3dfc1913349c4293350b6) by Carolina Wright
+
+
+### Testing
+
+* upgrading test runner [187d3b9](https://github.com/anypoint-web-components/anypoint-dropdown/commit/187d3b96bf6268a10ffe4ce98346623e40c05fef) by Pawel Psztyc
+* test new property is set [003ac29](https://github.com/anypoint-web-components/anypoint-dropdown/commit/003ac29e43ea4ef054a7594e01532238def1e1a6) by Carolina Wright
+
+
