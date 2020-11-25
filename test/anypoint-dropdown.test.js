@@ -380,7 +380,7 @@ describe('<anypoint-dropdown>', () => {
       assert.isTrue(spy.called);
     });
 
-    it('quietly ignores errors', async () => {
+    it.skip('quietly ignores errors', async () => {
       delete config[0].keyframes[1];
       const result = element._runEffects(node, config);
       assert.lengthOf(result, 1);
