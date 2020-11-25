@@ -2,7 +2,7 @@ import { TemplateResult, LitElement, CSSResult } from 'lit-element';
 import { ControlStateMixin } from '@anypoint-web-components/anypoint-control-mixins';
 import { ArcOverlayMixin } from '@advanced-rest-client/arc-overlay-mixin';
 
-export declare class AnypointDropdown {
+export declare class AnypointDropdown extends ArcOverlayMixin(ControlStateMixin(LitElement)) {
   readonly styles: CSSResult;
 
   /**
@@ -106,6 +106,6 @@ export declare class AnypointDropdown {
   render(): TemplateResult;
 }
 
-export declare interface AnypointDropdown extends ArcOverlayMixin, ControlStateMixin, LitElement {
+// export declare interface AnypointDropdown extends ArcOverlayMixin, ControlStateMixin, LitElement {
 
-}
+// }
