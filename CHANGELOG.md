@@ -116,3 +116,18 @@
 * test new property is set [003ac29](https://github.com/anypoint-web-components/anypoint-dropdown/commit/003ac29e43ea4ef054a7594e01532238def1e1a6) by Carolina Wright
 
 
+<a name="1.1.3"></a>
+## [1.1.3](https://github.com/anypoint-web-components/anypoint-dropdown/compare/1.1.2...1.1.3) (2020-11-25)
+
+### Update
+
+* [ci skip] automated merge master->stage. syncing main branches [580fc86](https://github.com/anypoint-web-components/anypoint-dropdown/commit/580fc861e7c202740c8b6ccaf909e6d66fee3116) by Ci agent
+* updating types [6a601bb](https://github.com/anypoint-web-components/anypoint-dropdown/commit/6a601bb1440e2d9270147949672c83e9b6588817) by Pawel Psztyc
+* [ci skip] automated merge master->stage. syncing main branches [64bd789](https://github.com/anypoint-web-components/anypoint-dropdown/commit/64bd7894d39b3f37e4595ce260cc1e44be978bdc) by Ci agent
+
+
+### Testing
+
+* upgrading test runner [187d3b9](https://github.com/anypoint-web-components/anypoint-dropdown/commit/187d3b96bf6268a10ffe4ce98346623e40c05fef) by Pawel Psztyc
+
+
