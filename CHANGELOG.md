@@ -131,3 +131,20 @@
 * upgrading test runner [187d3b9](https://github.com/anypoint-web-components/anypoint-dropdown/commit/187d3b96bf6268a10ffe4ce98346623e40c05fef) by Pawel Psztyc
 
 
+<a name="1.1.4"></a>
+## [1.1.4](https://github.com/anypoint-web-components/anypoint-dropdown/compare/1.1.2...1.1.4) (2020-11-26)
+
+### Update
+
+* updating types [6a222a1](https://github.com/anypoint-web-components/anypoint-dropdown/commit/6a222a10593e16b8ac5dcaed1504738008a674e1) by Pawel Psztyc
+* [ci skip] automated merge master->stage. syncing main branches [ba22c8e](https://github.com/anypoint-web-components/anypoint-dropdown/commit/ba22c8e35793f8a7f3be160c85b6bb02c7cfa636) by Ci agent
+* [ci skip] automated merge master->stage. syncing main branches [580fc86](https://github.com/anypoint-web-components/anypoint-dropdown/commit/580fc861e7c202740c8b6ccaf909e6d66fee3116) by Ci agent
+* updating types [6a601bb](https://github.com/anypoint-web-components/anypoint-dropdown/commit/6a601bb1440e2d9270147949672c83e9b6588817) by Pawel Psztyc
+* [ci skip] automated merge master->stage. syncing main branches [64bd789](https://github.com/anypoint-web-components/anypoint-dropdown/commit/64bd7894d39b3f37e4595ce260cc1e44be978bdc) by Ci agent
+
+
+### Testing
+
+* upgrading test runner [187d3b9](https://github.com/anypoint-web-components/anypoint-dropdown/commit/187d3b96bf6268a10ffe4ce98346623e40c05fef) by Pawel Psztyc
+
+
