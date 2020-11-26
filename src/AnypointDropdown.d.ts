@@ -24,10 +24,11 @@ export declare class AnypointDropdown extends ArcOverlayMixin(ControlStateMixin(
    * If provided, this will be the element that will be focused when
    * the dropdown opens.
    */
-  focusTarget: object;
+  focusTarget: HTMLElement;
   /**
    * Set to true to disable animations when opening and closing the
    * dropdown.
+   * @attribute
    */
   noAnimations: boolean;
   /**
@@ -37,18 +38,15 @@ export declare class AnypointDropdown extends ArcOverlayMixin(ControlStateMixin(
    * to the dropdown when it opens.
    * This property is a shortcut to set `scrollAction` to lock or refit.
    * Prefer directly setting the `scrollAction` property.
+   * @attribute
    */
   allowOutsideScroll: boolean;
 
-  positionTarget: HTMLElement;
-
-  verticalAlign: string;
-
-  horizontalAlign: string;
-
-  verticalOffset: number;
-
-  horizontalOffset: number;
+  /**
+   * Set to true to fit dropdown content width to dropdown selector
+   * @attribute
+   */
+  fitPositionTarget: boolean;
 
   /**
    * The element that is contained by the dropdown, if any.

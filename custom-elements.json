@@ -6,6 +6,16 @@
       "path": "./anypoint-dropdown.js",
       "attributes": [
         {
+          "name": "noAnimations",
+          "description": "Set to true to disable animations when opening and closing the\ndropdown.",
+          "type": "boolean"
+        },
+        {
+          "name": "allowOutsideScroll",
+          "description": "By default, the dropdown will constrain scrolling on the page\nto itself when opened.\nSet to true in order to prevent scroll from being constrained\nto the dropdown when it opens.\nThis property is a shortcut to set `scrollAction` to lock or refit.\nPrefer directly setting the `scrollAction` property.",
+          "type": "boolean"
+        },
+        {
           "name": "opened",
           "description": "True if the overlay is currently displayed.",
           "type": "boolean"
@@ -87,7 +97,7 @@
         },
         {
           "name": "fitPositionTarget",
-          "description": "When set it fits the positioning target width.",
+          "description": "Set to true to fit dropdown content width to dropdown selector",
           "type": "boolean"
         },
         {
@@ -119,15 +129,17 @@
         {
           "name": "focusTarget",
           "description": "If provided, this will be the element that will be focused when\nthe dropdown opens.",
-          "type": "object"
+          "type": "HTMLElement"
         },
         {
           "name": "noAnimations",
+          "attribute": "noAnimations",
           "description": "Set to true to disable animations when opening and closing the\ndropdown.",
           "type": "boolean"
         },
         {
           "name": "allowOutsideScroll",
+          "attribute": "allowOutsideScroll",
           "description": "By default, the dropdown will constrain scrolling on the page\nto itself when opened.\nSet to true in order to prevent scroll from being constrained\nto the dropdown when it opens.\nThis property is a shortcut to set `scrollAction` to lock or refit.\nPrefer directly setting the `scrollAction` property.",
           "type": "boolean"
         },
@@ -295,7 +307,7 @@
         {
           "name": "fitPositionTarget",
           "attribute": "fitPositionTarget",
-          "description": "When set it fits the positioning target width.",
+          "description": "Set to true to fit dropdown content width to dropdown selector",
           "type": "boolean"
         },
         {
