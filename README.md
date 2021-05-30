@@ -1,12 +1,12 @@
-[![Published on NPM](https://img.shields.io/npm/v/@anypoint-web-components/anypoint-dropdown.svg)](https://www.npmjs.com/package/@anypoint-web-components/anypoint-dropdown)
-
-[![Build Status](https://travis-ci.org/anypoint-web-components/anypoint-dropdown.svg?branch=stage)](https://travis-ci.org/anypoint-web-components/anypoint-dropdown)
-
 # anypoint-dropdown
 
 An element that displays content inside a fixed-position container, positioned relative to another element.
 
 Partially inspired by [anypoint-dropdown](https://github.com/PolymerElements/anypoint-dropdown)
+
+[![Published on NPM](https://img.shields.io/npm/v/@anypoint-web-components/anypoint-dropdown.svg)](https://www.npmjs.com/package/@anypoint-web-components/anypoint-dropdown)
+
+[![tests](https://github.com/anypoint-web-components/anypoint-dropdown/actions/workflows/deployment.yml/badge.svg)](https://github.com/anypoint-web-components/anypoint-dropdown/actions/workflows/deployment.yml)
 
 ## Accessibility
 
@@ -16,7 +16,7 @@ The element does not offer `aria-*` or `role` attributes. The elements that uses
 
 ### Installation
 
-```
+```sh
 npm install --save @anypoint-web-components/anypoint-dropdown
 ```
 
