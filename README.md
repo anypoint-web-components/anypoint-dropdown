@@ -1,4 +1,8 @@
-# anypoint-dropdown
+# Deprecated
+
+This component has been moved to `anypoint-web-components/awc`.
+
+-----
 
 An element that displays content inside a fixed-position container, positioned relative to another element.
 
